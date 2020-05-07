@@ -1,0 +1,58 @@
+body {
+    background: rgb(132,132,133);
+    background: linear-gradient(90deg, rgba(132,132,133,1) 0%, rgba(227,227,228,1) 14%, rgba(215,215,216,1) 88%, rgba(130,131,131,1) 100%);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    
+    margin: auto;
+    align-content: center;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 350px;
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.shown {
+    height: 350px;
+}
+
+#back, #next {
+    justify-content: center;
+    align-items: center;
+}
+
+#next {
+    transform: rotate(180deg);
+}
+
+.galery {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thumbs {
+    height: 20px;
+}
