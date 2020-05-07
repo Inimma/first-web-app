@@ -9,10 +9,6 @@ body {
     transform: translateY(50%)
 }
 
-main {
-    
-}
-
 container {
     display: flex;
     justify-content: center;
@@ -26,13 +22,22 @@ element {
     align-items: center;
     background-color: lightgrey;
     height: 350px;
-    width: 30px;
+    flex-flow: 1;
     padding: 0px;
     margin: 0px;
 }
 
 .shown {
-    height: 350px;
+    max-height: 350px;
+    position: relative;
+}
+
+text {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    text-emphasis: wrap;
 }
 
 #back, #next {
