@@ -22,7 +22,7 @@ element {
     align-items: center;
     background-color: lightgrey;
     height: 350px;
-    flex-flow: 1;
+    width: 30px;
     padding: 0px;
     margin: 0px;
 }
